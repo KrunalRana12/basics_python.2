@@ -8,7 +8,7 @@ num = print("the number is even") if (n1 % 2 == 0) else print("the number is odd
 
 2# Input: Age of the donor
 
-age = int(input("Enter the age of the donor: "))
+age = int(input("Enter the age of the donor :- "))
 
 if age >= 18 and age <= 55:
         print("The donor is eligible to donate blood.")
