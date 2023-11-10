@@ -67,6 +67,7 @@ match mylist:
 
 6. # Write a program to find the maximum from given four numbers (using logical operator).
 
+
 A1 = int(input("ENTER VALUE IN A1 :- ")) 
 A2 = int(input("ENTER VALUE IN A2 :- ")) 
 A3 = int(input("ENTER VALUE IN A3 :- ")) 
@@ -74,16 +75,17 @@ A4 = int(input("ENTER VALUE IN A4 :- "))
 
 
 if(A1 > A2 and A1 > A4) :
-    print("entered past value of A1 is maximum")  
+    print("entered past value of A1(%d) is maximum" % A1)  
 elif(A2 > A3) :
-    print("entered past value of A2 is maximum")  
+    print("entered past value of A2(%d) is maximum" % A2)  
 elif(A3 > A4) :
-    print("entered past value of A3 is maximum")  
+    print("entered past value of A3(%d) is maximum" % A3)  
 elif(A4 > A2) :
-    print("entered past value of A4 is maximum")  
+    print("entered past value of A4(%d) is maximum" % A4)  
 
 else :
     print("SORRY! I CAN NOT UNDERSTAND YOUR ENTERED VALUE")
+
 
 7.# Write a program to find the maximum from given four numbers (using logical operator)
 
